@@ -31,3 +31,5 @@ mvn spring-boot:run
  -If we have to call rest API, we should configure circuit breaker pattern<br />
   think about fallback scenarios 
   and try to act fast when remote server down to release waiting threads in application. 
+ -More logging needed. 
+ -Handling exceptions aspect oriented way 
