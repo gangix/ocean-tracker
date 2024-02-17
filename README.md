@@ -26,10 +26,10 @@ mvn spring-boot:run
 	
 #### To Make it ready to Prod 
  -Proper db should be used. Mysql, MongoDb depends on requirements<br />
- -If application will run more than one instance, scheduler should be configured proparly<br />
+ -If application will run more than one instance, scheduler should be configured properly<br />
  -Instead of polling periodically, would be more consistent to get data when it s updated by using webSocket<br />
  -If we have to call rest API, we should configure circuit breaker pattern<br />
   think about fallback scenarios 
-  and try to act fast when remote server down to release waiting threads in application. 
- -More logging needed. 
+  and try to act fast when remote server down to release waiting threads in application.<br /> 
+ -More logging needed. <br />
  -Handling exceptions aspect oriented way 
